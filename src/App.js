@@ -1,10 +1,10 @@
-import Buckets from './components/Buckets';
+import BucketWrapper from './components/BucketWrapper';
 import './App.css';
 
 function App() {
   return (
     <div className="App flex">
-      <Buckets/>
+      <BucketWrapper/>
     </div>
   );
 }
